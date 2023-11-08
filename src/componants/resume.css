@@ -1,0 +1,47 @@
+.Resume{
+    display: flex;
+    height: 99.5vh;
+    
+}
+
+.leftResume{
+    width: 30%;
+    /* height: 100vh; */
+    color: white;
+background: rgb(55,57,88);
+background: linear-gradient(180deg, rgba(55,57,88,1) 0%, rgba(69,211,252,1) 100%);
+}
+
+.rightResume{
+    width: 90%;
+    /* height: auto; */
+    display: flex;
+    margin: 30px 50px 0px 50px;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 2px solid; */
+    /* justify-content: center; */
+}
+
+.profileimg{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.educInfo{
+    display: flex;
+    gap:10px;
+    margin-left: 0px;
+    align-items: center;
+}
+.educationInfo{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.educationstyling{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
